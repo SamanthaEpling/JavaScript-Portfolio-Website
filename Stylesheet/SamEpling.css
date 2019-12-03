@@ -7,7 +7,7 @@ body {
     opacity: 1;
     transition: 3s opacity;
     letter-spacing: .2vw;
-    font-family: Avant Garde, Helvetica;
+    font-family: 'Gupter', serif, Avant Garde;
     font-size: 1.5vw;
 }
 
@@ -18,7 +18,7 @@ body.fade-out {
 
 .Navbar {
     overflow: hidden;
-    background-color: purple;
+    background-color: darkblue;
     position: fixed;
     top: 0;
     width: 100%;
@@ -34,9 +34,9 @@ body.fade-out {
     color: lightslategray;
     padding: .75vw 1vw;
     text-decoration: none;
-    font-family: Avant Garde, Helvetica;
+    font-family: 'Calistoga', cursive, Avant Garde;
     font-size: 1.5vw;
-    font-weight: bold;
+
     text-align: center;
     position: relative;
     -webkit-animation: moveavText 5.75s;
@@ -69,7 +69,7 @@ body.fade-out {
 }
 
 .Navbar a.active {
-    background-color: lightcyan;
+    background-color: lightskyblue;
 }
 
 @keyframes zoominoutsinglefeatured {
@@ -92,7 +92,7 @@ body.fade-out {
 }
 
 .Video_Text {
-    background: rgba(162, 154, 235, 0.65);
+    background: rgba(135, 206, 250,.65);
     color: navy;
     width: 100%;
     padding-top: .1vh;
@@ -104,7 +104,7 @@ body.fade-out {
 }
 
 #Slideshow_Background {
-    background: rgba(255,255,255, 0.35);
+    background: rgba(176, 196, 222,.65);
 }
 .mySlides {
     display: none;
@@ -167,7 +167,7 @@ body.fade-out {
     bottom: 0;
     width: 100%;
     text-align: center;
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: 'Gupter', serif;
     letter-spacing: .1vw;
     font-size: 1.5vw;
     background-color: rgba(0,0,0,0.75);
@@ -179,7 +179,7 @@ body.fade-out {
     color: white;
     position: aboslute;
     top: 0;
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: 'Gupter', serif;
     letter-spacing: .1vw;
     font-size: 1.5vw;
     font-weight: bold;
@@ -227,7 +227,7 @@ body.fade-out {
     width: 50%;
     padding: 1.6%;
     height: 548px;
-    background-color: darkcyan;
+    background-color: navy;
 }
 
 .Row:after {
@@ -238,14 +238,14 @@ body.fade-out {
 
 h1 {
     text-transform: uppercase;
-    font-family: "Trebuchet MS", Optima;
+    font-family: 'Calistoga', cursive;
     text-align: center;
     margin-top: 3%;
     color: #1a1a1a;
 }
 
 p {
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: 'Gupter', serif;
     text-align: justify;
     letter-spacing: .1vw;
     font-size: 1.5vw;
@@ -254,7 +254,7 @@ p {
 }
 
 center {
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: 'Gupter', serif;
     text-align: center;
     letter-spacing: .1vw;
     font-size: 1.5vw;
@@ -311,9 +311,11 @@ img:hover {
     bottom:1.75vw;
     right: 1.75vw;
     width: 25vw;
-    background-color: purple;
-    color: white;
+    background-color: navy;
+    color: lightgray;
+    border-color: darkslategrey;
     border: solid;
+    border-radius: 8px;
     cursor: pointer;
     position: fixed;
     -webkit-animation: movePopup 5s;
@@ -341,7 +343,7 @@ img:hover {
     margin: .6vw 0 .6vw 0;
     border: none;
     background: gainsboro;
-    font-family: Helvetica, Avant Garde;
+    font-family: 'Gupter', serif;
     font-size: 1vw;
 }
 
@@ -353,16 +355,16 @@ img:hover {
 }
 
 .form-container .cancel {
-    background-color: black;
+    background-color: darkcyan;
     color: white;
     border-color: gray;
 }
 
 button {
-    font-family: "Trebuchet MS", Optima;
+    font-family: 'Calistoga', cursive;
     letter-spacing: .3vw;
     font-size: 1.5vw;
-    font-weight: bold;
+
     padding: 1.5vw 1/5vw;
     border-style: solid;
     cursor: pointer;
@@ -372,8 +374,8 @@ button {
 }
 
 button:hover, .form-container .btn:hover {
-    color: white;
-    background-color: purple;
+    color: black;
+    background-color: lightskyblue;
     -webkit-transition-duration: 1s;
     transition-duration: 1s;
     border-style: solid;
@@ -382,7 +384,7 @@ button:hover, .form-container .btn:hover {
 
 .form-container .cancel:hover {
     color: white;
-    background-color: darkred;
+    background-color: navy;
     -webkit-transition-duration: 1s;
     transition-duration: 1s;
     border-style: solid;

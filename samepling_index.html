@@ -5,11 +5,21 @@
         <meta charset="UTF-8">
         <title>Samantha Epling</title>
         <link rel="stylesheet" type="text/css" href="Stylesheet/SamEpling.css">
-        <!--<script src="Stylesheet/SamEpling.js"></script>-->
+        <link href="https://fonts.googleapis.com/css?family=Calistoga|Gupter&display=swap" rel="stylesheet">
+        <script src="Stylesheet/SamEpling.js"></script>
         
     </head>
     <body class="Background">
-        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+              document.bodyclassName += ' fade-out';
+                $(function() {
+                    $('body').removeClass('fade-out');
+                }
+            ); 
+            
+           
+        </script>    
 
         <div class="Navbar">
             <a class="active" href="#Home">Home</a>
@@ -19,8 +29,8 @@
             <a onclick="openForm()">Contact</a>
         </div>
 
-        <div class="btn cancel" onclick="closeForm()">
-
+        <div class="btn cancel" >
+            <!--onclick="closeForm()"-->
         <div id="Home">
             <br>
             <br>
@@ -141,7 +151,7 @@
 
             <div class="Column_1">
                 <h1>About</h2>
-                    <p>I am a software developer who loves to code! I enjoy spending time outdoors and with my animal family. <br><br> I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. <br><br> I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!</p>
+                    <p>I am a software developer who loves to code! I enjoy spending time outdoors and with my husband, horse, dog and cats. <br><br> I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. <br><br> I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!</p>
             </div>
         </div>
 
@@ -175,41 +185,7 @@
                     </form>
                 </div>
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script>
-              document.bodyclassName += ' fade-out';
-                $(function() {
-                    $('body').removeClass('fade-out');
-                }
-            ); 
-            
-            $(document).ready(function(){
-                $("a").on('click', function(event) {
-        
-                    if (this.Link !== "") {
-                        event.preventDefault();
 
-                        var Link = this.Link;
-
-                        $('html, body').animate({
-                            scrollTop: $(Link).offset().top
-                        }, 2000, function(){
-
-                        window.location.Link = Link;
-                        });
-                    }
-                });
-            });
-
-            function openForm() {
-                document.getElementById("myForm").style.display = "block";
-            };
-
-            function closeForm() {
-                document.getElementById("myForm").style.display = "none";
-                this.Close();
-            };
-        </script>
         
         
         <footer>
